@@ -1,0 +1,14 @@
+{
+  "name": "data-table",
+  "version": "1.0.0",
+  "description": "Tailwind project",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./public/style.css -w"
+  },
+  "author": "Mh Fahim",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
